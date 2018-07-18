@@ -2,13 +2,13 @@
 <html lang="en" ng-app>
 <head>
     <meta charset="UTF-8">
-    <title>Banking Application</title>
+    <title>Movies 4 U</title>
 </head>
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand">Banking Application</a>
+                <a class="navbar-brand">Movies 4 U</a>
             </div>
         </div>
     </nav>
@@ -20,14 +20,14 @@
     Hide div: <input type="checkbox" ng-model="isHidden"/>
      -->
      
-    <!-- Example 2: ng-init, ng-click
+     <!-- Example 2: ng-init, ng-click
     <div ng-init ="name='john'">
     	<div ng-hide="isHidden">
     	Name: <input type="text" ng-model="name"/>{{name}}
     	<br/>
     	<button ng-click="name='Jane'">Change name</button>
-    </div>
-     -->
+    </div>-->
+     
      
     <!--
     Example 3: ng-repeat and filters
@@ -51,11 +51,39 @@
     	</table>
     </div>
     -->
+    
+    
+ 
+    
+    <div ng-init ="movies=[{'name': 'Movie 1', 'genre': 'Thriller','rating': '15'},{'name': 'Movie 2', 'genre': 'Casual','rating': '12'},
+    {'name': 'The Room', 'genre': 'Weird','rating': '18'}]" >
+    <ul>
+    		Name: <input type="text" ng-model="movieSearch"/>
+    	</ul>
+    	<h3><span>Movies</span></h3>
+    	<table class= "table table-hover">
+    		<tr>
+    			<th>Name</th>
+    			<th>Genres</th>
+    			<th>Rating</th>
+    		</tr>
+    		<tr ng-repeat="movie in movies | filter:movieSearch" ng-hide= "toggle" >
+    			<td>{{movie.name}}</td>
+    			<td>{{movie.genre}}</td>
+    			<td>{{movie.rating}}</td>
+    		</tr>
+    	</table>
+     </div>
+     
+    <button class="w3-button w3-circle w3-purple" ng-click="toggle=!toggle">{{toggle ? 'Show' : 'Hide'}}</button>
+   <div class="w3-button w3-circle" ng-click="toggle=!toggle"  style="width:150px; height:135px">
+     <img src="jarad.png" style="width:100%">
+    </div>
 	<link rel="stylesheet" href="scripts/bootstrap.min.css"> 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/ui-router.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
-    </div>
 </body>
 </html>
