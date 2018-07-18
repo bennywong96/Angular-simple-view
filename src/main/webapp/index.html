@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="accountApp">
 <head>
     <meta charset="UTF-8">
     <title>Movies 4 U</title>
@@ -53,37 +53,35 @@
     -->
     
     
- 
-    
-    <div ng-init ="movies=[{'name': 'Movie 1', 'genre': 'Thriller','rating': '15'},{'name': 'Movie 2', 'genre': 'Casual','rating': '12'},
-    {'name': 'The Room', 'genre': 'Weird','rating': '18'}]" >
-    <ul>
-    		Name: <input type="text" ng-model="movieSearch"/>
-    	</ul>
-    	<h3><span>Movies</span></h3>
-    	<table class= "table table-hover">
-    		<tr>
-    			<th>Name</th>
-    			<th>Genres</th>
-    			<th>Rating</th>
-    		</tr>
-    		<tr ng-repeat="movie in movies | filter:movieSearch" ng-hide= "toggle" >
-    			<td>{{movie.name}}</td>
-    			<td>{{movie.genre}}</td>
-    			<td>{{movie.rating}}</td>
-    		</tr>
-    	</table>
-     </div>
-     
-    <button class="w3-button w3-circle w3-purple" ng-click="toggle=!toggle">{{toggle ? 'Show' : 'Hide'}}</button>
-   <div class="w3-button w3-circle" ng-click="toggle=!toggle"  style="width:150px; height:135px">
-     <img src="jarad.png" style="width:100%">
-    </div>
+<div class="dashboard panel panel-default" ng-controller="movieController as movieCtrl">
+<div class="panel-heading">Movies Page</div>
+	    <div class="panel-body">
+   		<div >
+        	<h3><span>Movie Table</span></h3>
+        	<table class="table" >
+        		<tr>
+        			<th>{{'Name' | uppercase}}</th>
+        			<th>{{'Genre' | uppercase}}</th>
+        			<th>{{'Ratings' | uppercase}}</th>
+        		</tr>
+        		<tr ng-repeat="movie in movieCtrl.movies" ng-hide="movieCtrl.isHidden">
+        			<td>{{movie.name}}</td>
+        			<td>{{movie.genre}}</td>
+        			<td>{{movie.rating}}</td>
+        		</tr>
+        	</table>
+        </div>
+        <button class="btn"ng-click="movieCtrl.hideTable()">{{movieCtrl.isHidden ? 'Show' : 'Hide'}}</button>
+        <button class ="btn"> Magical Powers</button>
+	</div>
+  
 	<link rel="stylesheet" href="scripts/bootstrap.min.css"> 
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/ui-router.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/movie-controller.js"></script>
+    </div>
 </body>
 </html>
