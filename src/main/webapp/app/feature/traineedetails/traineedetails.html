@@ -1,0 +1,7 @@
+<div ng-controller="traineesController as traineesCtrl">
+    <h1>Trainee Name: {{traineesCtrl.selectedTrainee.firstname}} {{traineesCtrl.selectedTrainee.lastname}}</h1>
+    <h2>Languages:</h2>
+    <h3 ng-repeat="languages in traineesCtrl.selectedTrainee.languages">{{languages}}</h3>
+
+    <button class="btn"ng-click="traineesCtrl.goSomewhere()">Back to Trainees</button>
+</div>

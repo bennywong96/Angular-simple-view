@@ -11,9 +11,15 @@
         }).state("account", {
                 url: "/account",
                 templateUrl: "app/feature/account/account.html"
-        }).state("trainee", {
-            url: "/trainee",
-            templateUrl: "app/feature/trainee/trainee.html"
+        }).state("traineedetails", {
+            url: "/traineedetails",
+            params: {
+                obj: null // as per other suggestion, added a param here
+            },
+            templateUrl: "app/feature/traineedetails/traineedetails.html"
+        }).state("trainees", {
+            url: "/trainees",
+            templateUrl: "app/feature/trainees/trainees.html"
         }).state("book", {
             url: "/book",
             templateUrl: "app/feature/book/book.html"
