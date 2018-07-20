@@ -1,0 +1,26 @@
+<div ng-controller="traineesController as traineesCtrl">
+
+    <div class="panel-heading"></div>
+    <div class="panel-body">
+
+        <div style="overflow: scroll; height: 500px; width: 60%;">
+            <h3><span>Trainees List</span></h3>
+            <table id="myTable2" class="table table-hover">
+                <tr>
+                    <th ng-click="traineesCtrl.newFunction(0)"> First Name</th>
+                    <th ng-click="traineesCtrl.newFunction(1)"> Surname</th>
+                </tr>
+                <tr ng-model="selectedTrainee" ng-click="traineesCtrl.passTrainee(trainee)"  ng-repeat="trainee in traineesCtrl.trainees" ng-hide="traineesCtrl.isHidden">
+                    <td>{{trainee.firstName}}</td>
+                    <td>{{trainee.lastName}}</td>
+
+                </tr>
+            </table>
+        </div>
+        <button class="btn"ng-click="traineesCtrl.hideTable()">Hide Trainees</button>
+    </div>
+    </div>
+
+</div>
+
+

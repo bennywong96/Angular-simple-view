@@ -1,0 +1,6 @@
+#!/bin/bash
+deployments_dir="/c/Users/Admin/wildfly-10.1.0.Final/standalone/deployments"
+mvn clean install
+rm -rf $deployments_dir/trainee-views1*
+cp target/trainee-views1.war $deployments_dir
+

@@ -1,0 +1,10 @@
+com\qa\integration\TraineeEndPoint.class
+com\qa\persistence\repository\TraineeDBRepository.class
+com\qa\integration\JAXActivator.class
+com\qa\persistence\domain\Subject.class
+com\qa\business\service\TraineeService.class
+com\qa\persistence\repository\TraineeMapRepository.class
+com\qa\persistence\repository\TraineeRepository.class
+com\qa\util\JSONUtil.class
+com\qa\business\service\TraineeServiceImpl.class
+com\qa\persistence\domain\Trainee.class

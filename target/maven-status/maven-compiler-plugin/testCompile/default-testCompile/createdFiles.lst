@@ -1,0 +1,3 @@
+com\qa\integration\TraineeEndPointTest.class
+com\qa\business\service\TraineeServiceImplTest.class
+com\qa\service\repository\TraineeDBRepositoryTest.class
