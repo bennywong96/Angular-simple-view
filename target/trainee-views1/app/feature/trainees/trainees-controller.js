@@ -81,6 +81,7 @@
         };
 
         vm.selectedTrainee = dataService.getData();
+        console.log(vm.selectedTrainee);
 
         vm.goSomewhere = function () {
             $state.go('trainees');

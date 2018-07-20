@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35a9f79-9f07-437b-8872-9cf993c033ec" name="Default" comment="" />
+    <list default="true" id="a35a9f79-9f07-437b-8872-9cf993c033ec" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.business.service.TraineeServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.business.service.TraineeServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.integration.TraineeEndPointTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.integration.TraineeEndPointTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.service.repository.TraineeDBRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.qa.service.repository.TraineeDBRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.qa.business.service.TraineeServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.qa.business.service.TraineeServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.qa.service.repository.TraineeDBRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.qa.service.repository.TraineeDBRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/trainee-views1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/trainee-views1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/trainee-views1/app/feature/traineedetails/traineedetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/trainee-views1/app/feature/traineedetails/traineedetails.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainees-controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="traineedetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainees-controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="628">
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -89,15 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traineedetails.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="trainee.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/service/trainee.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,13 +134,16 @@
       <find>account</find>
       <find>Account</find>
       <find>traineeslist</find>
-      <find>traineeSer</find>
       <find>saveTrainee</find>
       <find>traineesController</find>
       <find>traineeService</find>
       <find>Ctrl</find>
       <find>traineeCtrl</find>
+      <find>traineeSer</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,9 +160,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/service/trainee.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/app-state-manager.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js" />
       </list>
     </option>
   </component>
@@ -166,6 +180,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -394,12 +409,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532012289003</updated>
       <workItem from="1532012290342" duration="6017000" />
-      <workItem from="1532073499129" duration="9157000" />
+      <workItem from="1532073499129" duration="10261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15174000" />
+    <option name="totallyTimeSpent" value="16278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -409,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -571,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -597,8 +605,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/traineedetails/traineedetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/trainees/trainees-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
         </state>
       </provider>
     </entry>

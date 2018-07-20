@@ -1,7 +1,7 @@
 <div ng-controller="traineesController as traineesCtrl">
     <h1>Trainee Name: {{traineesCtrl.selectedTrainee.firstName}} {{traineesCtrl.selectedTrainee.lastName}}</h1>
     <h2>Subjects:</h2>
-    <h3 ng-repeat="subject in traineesCtrl.selectedTrainee.subjects">{{subject}}</h3>
+    <h3 ng-repeat="subject in traineesCtrl.selectedTrainee.subject">{{subject.subject}} | {{subject.grade}}</h3>
 
     <button class="btn"ng-click="traineesCtrl.goSomewhere()">Back to Trainees</button>
 </div>
